@@ -1,29 +1,13 @@
 # lint-setting
 
-## Project setup
+## install 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue --save-dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## prettier 플로그인 설치
 
-### Run your tests
-```
-npm run test
-```
+## .vscode/setting.json 수정
+```JSON
 
-### Lints and fixes files
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
