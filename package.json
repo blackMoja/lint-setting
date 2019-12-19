@@ -10,8 +10,7 @@
   },
   "lint-staged": {
     "*.{vue,js}": [
-      "prettier --write",
-      "eslint --fix -c ./.prettierrc.js",
+      "eslint --fix -c ./.eslintrc.js",
       "git add"
     ]
   },
