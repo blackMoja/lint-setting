@@ -5,10 +5,9 @@ module.exports = {
   semi: true,
   tabWidth: 2,
   trailingComma: "none",
-  printWidth: 80,
+  printWidth: 150,
   bracketSpacing: true,
   arrowParens: "avoid",
   endOfLine: "crlf",
-  parser: "vue",
   vueIndentScriptAndStyle: true
 };
