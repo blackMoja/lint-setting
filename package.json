@@ -13,13 +13,9 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --config ./.prettierrc-util.js --write",
-      "lint"
-    ],
-    "*.vue": [
-      "prettier --config ./.prettierrc-util.js --write",
-      "lint"
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
     ]
   },
   "dependencies": {

@@ -15,7 +15,8 @@ export default {
 	name: 'app',
 	components: {
 		HelloWorld
-	}
+	},
+	methods: {}
 };
 </script>
 
