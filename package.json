@@ -8,12 +8,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --config ./.prettierrc-util.js --write"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,vue}": [
-      "prettier --config ./.prettierrc-util.js --write"
+      "prettier --config ./.prettierrc-util.js --write",
+      "git add"
     ]
   },
   "dependencies": {
